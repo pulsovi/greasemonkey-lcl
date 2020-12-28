@@ -1,0 +1,32 @@
+{
+  "name": "GreaseMonkey",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:pulsovi/greasemonkey-lcl.git",
+  "author": "David GABISON <david.gabison@outlook.com>",
+  "license": "MIT",
+  "eslintConfig": {
+    "env": {
+      "jquery": true
+    },
+    "extends": [
+      "pulsovi/browser",
+      "plugin:no-jquery/recommended"
+    ],
+    "ignorePatterns": [
+      "node_modules",
+      "LCL"
+    ],
+    "plugins": [
+      "no-jquery"
+    ],
+    "rules": {
+      "multiline-comment-style": "off",
+      "no-jquery/variable-pattern": "off"
+    }
+  },
+  "devDependencies": {
+    "eslint-config-pulsovi": "https://github.com/pulsovi/eslint-config-pulsovi.git",
+    "eslint-plugin-no-jquery": "^2.5.0"
+  }
+}
