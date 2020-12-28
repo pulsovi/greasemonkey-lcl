@@ -1,0 +1,45 @@
+.tsv {
+  background: white;
+  border: solid black 1px;
+  left: 150px;
+  margin: 0;
+  padding: 20px;
+  position: absolute;
+  top: 150px;
+  width: 600px;
+}
+
+.copy-button {
+  background: green;
+  cursor: pointer;
+}
+
+.close-tsv {
+  background: black;
+  border: white solid 1px;
+  height: 20px;
+  left: 769px;
+  position: absolute;
+  top: 151px;
+  width: 20px;
+}
+
+.cross-h {
+  border-color: transparent red;
+  border-style: solid;
+  border-width: 8px;
+  left: 1px;
+  position: absolute;
+  top: 2px;
+  width: 2px;
+}
+
+.cross-v {
+  border-color: red transparent;
+  border-style: solid;
+  border-width: 8px;
+  height: 2px;
+  left: 2px;
+  position: absolute;
+  top: 1px;
+}
